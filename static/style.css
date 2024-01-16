@@ -286,25 +286,22 @@ section img#mountains_front {
 }
 
 .card {
-  margin: 30px 50px;
-  width: 225px;
-  height: 225px;
+  margin: 50px 85px; 
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   transition: 0.4s;
 }
 
 .card .card_image {
-  width: inherit;
-  height: inherit;
+  width: 200px;
+  height:200px;
   border-radius: 40px;
 }
 
 .card .card_image img {
-  width: inherit;
-  height: inherit;
+  width: 200px;
+  height: 200px;
   border-radius: 40px;
   object-fit: cover;
 }
